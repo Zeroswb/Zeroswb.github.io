@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>实现常见的技术产品官网的页面架构及样式布局.html</title>
+	<link rel="stylesheet" type="text/css" href="./css/实现常见的技术产品官网的页面架构及样式布局.css">
+	<script type="text/javascript" src="实现常见的技术产品官网的页面架构及样式布局.js"></script>
+</head>
+<body>
+    <a name="top"></a>
+	<div class="container">
+		<header>
+			<div class="logo">
+				<span class="iconfont iconBook">&#xe600;</span>
+				<span>新世界</span>
+			</div>
+			<a class="iconfont signIn" href="">&#xe601; 登录</a>
+			<nav>
+				<ul>
+					<li><a href="">首页</a></li>
+					<li><a href="">最新活动</a></li>
+					<li><a href="">项目介绍</a></li>
+					<li><a href="">爱心社区</a></li>
+					<li><a href="">关于我们</a></li>
+				</ul>
+			</nav>
+		</header>
+		<section class="section_1">
+           <div class="startEx">
+           	  <p>Time of new life</p>
+           	  <p>新时代，年轻的人们让我们一起</p>
+           	  <p>体验新生活，享受新生活</p>
+           	  <p><a href="">开始</a></p>
+           </div>
+		</section>
+		<section class="section_2">
+			<ul>
+				<li>
+					<span class="iconfont">&#xe608;</span>
+					<div>
+					<p>打造全新世界观，让你更</p>
+					<p>爱你的生活</p>
+					</div>
+				</li>
+				<li>
+					<span class="iconfont">&#xe602;</span>
+					<div class="verticalLine">
+					<p>丰富多彩的公益活动，发</p>
+					<p>挥新世界的主人公意识</p>
+					</div>
+				</li>
+				<li>
+					<span class="iconfont">&#xe604;</span>
+					<div class="verticalLine">
+					<p>时尚的新理念，超前体验</p>
+					<p>未知的生活</p>
+					</div>
+				</li>
+				<li>
+					<span class="iconfont">&#xe603;</span>
+					<div class="verticalLine">
+					<p>完善的培养机制，培养你</p>
+					<p>全新的世界观</p>
+					</div>
+				</li>
+			</ul>
+		</section>
+		<section class="section_3">
+			<p class="iconfont">&#xe600;</p>
+			<p>关于新世界，你不知道的还有什么？</p>
+		</section>
+		<section class="section_4">
+			<p>查找新世界城市活动信息</p>
+			<p>每个城市的有不同的活动信息，请自主查询您所需要了解的城市</p>
+				<!-- <input type="text" placeholder="国家" list="cuontry">
+				<datalist id="cuontry">
+					<option>中国</option>
+					<option>美国</option>
+					<option>日本</option>
+				</datalist> -->
+				<form>				
+				<select name="country" class="selection" id="country">				
+					<option value="中国">中国</option>
+					<option value="美国">美国</option>
+					<option value="韩国">韩国</option>
+				</select>
+				<select name="province" class="selection" id="province">				
+					<option value="广东省">广东省</option>
+					<option value="北京市">北京市</option>
+					<option value="天津市">天津市</option>
+				</select>
+				<select name="city" class="selection" id="city">				
+					<option value="深圳市">深圳市</option>
+					<option value="上海市">上海市</option>
+					<option value="香港特别行政区">香港特别行政区</option>
+				</select>
+                <input type="submit" value="搜索">
+				</form>
+		</section>
+		<section class="section_5">
+				<ul class="picture">
+					<li>
+						<img src="./images/task_1_7_4.jpg">
+						<p>
+							<span class="bigger">北京活动</span><br>
+							<span >新社区大联盟</span>
+						</p>
+					</li>
+					<li>
+						<img src="./images/task_1_7_5.jpg">
+						<p>
+							<span class="bigger">上海活动</span><br>
+							<span>夜上海新景观探索</span>
+						</p>
+					</li>
+					<li>
+						<img src="./images/task_1_7_6.jpg">
+						<p>
+							<span class="bigger">深圳活动</span><br>
+							<span>全新海岸线观点站</span>
+						</p>
+					</li>
+					<li>
+						<img src="./images/task_1_7_7.jpg">
+						<p>
+							<span class="bigger">香港活动</span><br>
+							<span>奢侈消费大放送</span>
+						</p>
+					</li>
+				</ul>
+		</section>
+		<section class="section_6">
+				<!-- 纯CSS+HTML暂时实现不了手动轮播 -->
+			<div class="right">
+					<div class="newWorld newWorld_01">
+						<p>新世界/<span>01</span></p>
+						<p>
+						新世界是个新世界新世界是个新世界新世界是个新世界
+						新世界是个新世界新世界是个新世界新世界是个新世界 
+						新世界是个新世界新世界是个新世界新世界是个新世界 
+						新世界是个新世界新世界是个新世界
+						</p>
+					</div>
+					<!-- <div class="newWorld newWorld_02">
+						<p>新世界/<span>02</span></p>
+						<p>
+						新世界是个新世界新世界是个新世界新世界是个新世界
+						新世界是个新世界新世界是个新世界新世界是个新世界 
+						新世界是个新世界新世界是个新世界新世界是个新世界 
+						新世界是个新世界新世界是个新世界
+						</p>
+					</div>
+					<div class="newWorld newWorld_03">
+						<p>新世界/<span>03</span></p>
+						<p>
+						新世界是个新世界新世界是个新世界新世界是个新世界
+						新世界是个新世界新世界是个新世界新世界是个新世界 
+						新世界是个新世界新世界是个新世界新世界是个新世界 
+						新世界是个新世界新世界是个新世界
+						</p>
+					</div -->
+					<div class="moreInfor"><a href="">更多详情</a></div>
+				    <div class="radioBox">
+				        <input type="radio" name="radio" checked="checked">
+				        <input type="radio" name="radio">
+				        <input type="radio" name="radio">
+		                <div class="radio radio_1"></div>							 
+		                <div class="radio radio_2"></div>
+		                <div class="radio radio_3"></div>
+				    </div>
+		    </div>
+			<div class="left">
+			   <div class="leftWord">
+				<p>新世界</p>
+				<p>TIME</p>
+				<p>@新世界－北京<br>2016.04.01</p>
+			   </div>
+			   <div class="triangle_1"></div>
+			</div>
+		</section>
+		<section class="section_7">
+			<div class="redLeft">
+			   <div>
+				<p class="newEpoch">新时代<br>关于爱生活的我们</p>
+				<div class="checkMore"><a href="">查看更多</a></div>
+			   </div>
+			</div>
+			<div class="redLeft whiteMiddle">
+				<div>
+				<p class="newEpoch whiteMiddle_newEpoch">新时代<br>关于爱生活的我们</p>
+				<div class="checkMore whiteMiddle_checkMore"><a href="">查看更多</a></div>
+			   </div>
+			</div>
+			<div class="pictureRight">
+				<div class="triangle_2"></div>
+			</div>
+		</section>
+		<section class="section_8">
+			<div class="volunteer">
+				 <div class="a">成为我们的志愿者<div></div></div>
+				 <div>
+				 新世界的大家庭需要每一个爱生活的人的加入，如果你够年轻，有梦想，<br>
+				 有激情 那就不要犹豫，快来加入我们，成为改变所有人生活的人 
+				 </div>
+			</div>
+			<div class="apply">
+			    
+				<div class="information">
+				   <p>新世界志愿者协议</p>
+				   <p>加入新世界志愿者的人员必须遵守中华人民共共和国的相关法律法规，并且本着平等资源的原则 ......<br>
+				   <a href="">∨more</a>
+				   </p>
+				   <p>新世界志愿者权利</p>
+				   <p>新世界志愿者享受新世界内部所有资源共享的权利,并且享受所在四新世界活动的优先参与资格<br>
+                   <a href="">∨more</a>
+				   </p>
+				   <p>更多条款</p>
+				   <p><a href="">∨more</a></p>
+				</div>
+				<form>
+					<input type="text" placeholder="姓名:">
+					<input type="text" placeholder="年龄:"><br>
+					<input type="text" placeholder="联系方式:">
+					<input type="text" placeholder="联系地址:">
+                    <textarea cols="30" rows="10" placeholder="请简单描述您梦想的生活:"></textarea><br>
+                    <input type="submit" value="提交申请">
+				</form>
+			</div>
+		</section>
+		<footer>
+			<div class="contectUs">
+				<span>联系我们</span><br>
+				<span>为了更好的获取我们最新的产品资讯，您可以留下您的电子邮箱快速订阅我们的产品资讯<br> 也可以通过以下任何方式关注我们动态
+				</span>
+				<form>
+					<input type="email" placeholder="someone@email.com"><input type="submit" value="提交">
+				</form>
+				<ul>
+					<li><a href="" class="iconfont">&#xe606;</a></li>
+					<li><a href="" class="iconfont">&#xe607;</a></li>
+					<li><a href="" class="iconfont">&#xe605;</a></li>
+					<li><a href="" class="iconfont">&#xe609;</a></li>
+				</ul>
+			</div>
+			<div class="foot">
+				<span>@2016新世界</span>
+				<a href="#top">↑ Back to top</a>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
